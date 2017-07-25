@@ -1,0 +1,9 @@
+(module PAD-Circle (layer F.Cu) (tedit 58C7B531)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PAD-Circle (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0.01 -0.01) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+)

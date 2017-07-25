@@ -1,0 +1,9 @@
+(module PAD_Rec (layer F.Cu) (tedit 5864EA26)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PAD_Rec (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0.01) (size 1.8 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)
