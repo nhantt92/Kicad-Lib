@@ -49,12 +49,6 @@ D Diode bridge
 K Graetz
 $ENDCMP
 #
-$CMP FINDER-40.51
-D FINDER 40.51, Single Pole Relay, 5mm Pitch, 10A
-K Single Pole Relay
-F http://gfinder.findernet.com/assets/Series/353/S40EN.pdf
-$ENDCMP
-#
 $CMP LED-RGB-CA
 D Common-anode RGB LED
 K RGB CA LED
@@ -112,10 +106,28 @@ K Single Pole Relay
 F http://gfinder.findernet.com/assets/Series/353/S40EN.pdf
 $ENDCMP
 #
+$CMP RELAY-SMI-24VDC-SL-2C
+D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
+K Dual Pole Relay
+F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
+$ENDCMP
+#
 $CMP RM50-xx11
 D Single Pole Relay, Sugar Cube, 15A
 K Single Pole Relay Sugar Cube
 F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
+$ENDCMP
+#
+$CMP RM84
+D RELPOL RM84, Dual Pole Relay, 5mm Pitch, 8A
+K Dual Pole Relay
+F http://www.relpol.pl/en/content/download/13766/168095/file/e_RM84.pdf
+$ENDCMP
+#
+$CMP RSM822
+D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
+K Dual Pole Relay
+F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
 $ENDCMP
 #
 $CMP STM32F103C8
@@ -146,6 +158,11 @@ $CMP STM8S103K6T
 D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, LQFP32 (7x7mm, 0.8mm pitch)
 K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
 $ENDCMP
 #
 #End Doc Library
