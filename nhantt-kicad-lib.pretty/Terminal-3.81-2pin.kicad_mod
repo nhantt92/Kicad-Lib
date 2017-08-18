@@ -12,8 +12,8 @@
   (pad 1 thru_hole rect (at 1.905 0) (size 2.024 2.924) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -1.905 0) (size 2.024 2.924) (drill 1.2) (layers *.Cu *.Mask))
   (model E:/Project/2017/hw/kicad/nhantt-kicad-lib/packages3d/terminal-3.81-2pin.wrl
-    (at (xyz 0 0.135 0.1))
-    (scale (xyz 2.3 2.3 2.3))
+    (at (xyz 0 0.135 0.08))
+    (scale (xyz 2.2 2.2 2.2))
     (rotate (xyz 0 0 0))
   )
 )

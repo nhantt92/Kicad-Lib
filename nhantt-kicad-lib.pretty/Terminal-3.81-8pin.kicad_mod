@@ -22,4 +22,9 @@
     (scale (xyz 6.25 6.25 6.25))
     (rotate (xyz 0 0 0))
   )
+  (model E:/Project/2017/hw/Kicad-Lib/packages3d/terminal-3.81-8pin_2.wrl
+    (at (xyz 0 0.4 0.1))
+    (scale (xyz 6.25 6.25 6.25))
+    (rotate (xyz 270 0 270))
+  )
 )
