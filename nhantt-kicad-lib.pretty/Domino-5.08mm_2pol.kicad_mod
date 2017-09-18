@@ -1,4 +1,4 @@
-(module Domino-5.08mm_2pol (layer F.Cu) (tedit 59893813)
+(module Domino-5.08mm_2pol (layer F.Cu) (tedit 59B8F12F)
   (descr "2-way 3.5mm pitch terminal block, Phoenix PT series")
   (fp_text reference REF** (at 0.1 -4.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -16,11 +16,11 @@
   (fp_line (start -5.6 -5.8) (end -5.6 5.8) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.6 5.8) (end 5.6 -5.8) (layer F.SilkS) (width 0.15))
   (fp_line (start 5.6 -5.8) (end -5.6 -5.8) (layer F.SilkS) (width 0.15))
-  (pad 2 thru_hole oval (at 2.54 0) (size 2.724 3.524) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole rect (at -2.54 0) (size 2.724 3.524) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
-  (model D:/Projects/2016/nhantt/st-kicad-lib/3d-package/37832.wrl
-    (at (xyz 0 0 0.25))
-    (scale (xyz 4.25 4.25 4.25))
+  (pad 2 thru_hole oval (at 2.54 0) (size 2.624 3.724) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -2.54 0) (size 2.624 3.724) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (model E:/Project/2017/hw/Kicad-Lib/packages3d/domino-5.08-2pin.wrl
+    (at (xyz -0.01 0 0.22))
+    (scale (xyz 3.6 3.6 3.6))
     (rotate (xyz 270 0 90))
   )
 )
