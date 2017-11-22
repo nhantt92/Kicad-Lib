@@ -18,4 +18,9 @@
   (pad 1 smd rect (at -0.75 0.5) (size 0.75 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.75 0.5) (size 0.75 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0 -8.7) (size 3 2) (layers F.Cu F.Paste F.Mask))
+  (model E:/Project/2017/hw/Kicad-Lib/packages3d/crytal-32.768.wrl
+    (at (xyz 0 0.05 0.1))
+    (scale (xyz 500 500 500))
+    (rotate (xyz 270 0 90))
+  )
 )
