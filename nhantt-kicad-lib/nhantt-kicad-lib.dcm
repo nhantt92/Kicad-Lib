@@ -157,6 +157,16 @@ K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
+$CMP LED-5mm
+D LED generic
+K led diode
+$ENDCMP
+#
 $CMP LED-RGB-CA
 D Common-anode RGB LED
 K RGB CA LED
