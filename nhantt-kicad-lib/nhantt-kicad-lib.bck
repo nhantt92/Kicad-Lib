@@ -44,6 +44,12 @@ D 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92
 K Low Noise Audio NPN Transistor
 $ENDCMP
 #
+$CMP D_Zener_ALT
+D Zener Diode, alternativ symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
 $CMP Diode_Bridge
 D Diode bridge
 K Graetz
@@ -139,16 +145,15 @@ K Espressif Wi-Fi Bluetooth SoC IoT
 F https://espressif.com/sites/default/files/documentation/esp32_datasheet_en_0.pdf
 $ENDCMP
 #
-$CMP ESP8266EX
-D ESP8266 Espressif Wi-Fi SOC, 32 pins, 0.5mm pitch, 6x6mm QFN48.
-K Espressif Wi-Fi SoC IoT
-F https://espressif.com/en/products/hardware/esp8266ex/resources
-$ENDCMP
-#
 $CMP ESP8266EX_FULL
 D ESP8266 Espressif Wi-Fi SOC, 32 pins, 0.5mm pitch, 6x6mm QFN48, symbol with fully-elaborated pin names.
 K Espressif Wi-Fi SoC IoT
 F https://espressif.com/en/products/hardware/esp8266ex/resources
+$ENDCMP
+#
+$CMP Flyback-EI28
+D Transformer, single primary, single secondary, SO-8 package
+K transformer coil magnet
 $ENDCMP
 #
 $CMP G5Q-1
@@ -205,6 +210,12 @@ $CMP MCP6002
 D Dual general purpose rail-to-rail op amp
 K dual op amp rail 
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP Myrra44271
+D TEZ10.0/D/x-x, 10VA, Dual Secondary, Cast Resin Transformer, PCB
+K 10VA PCB Transformer Dual Secondary
+F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
 $ENDCMP
 #
 $CMP OP275
@@ -281,6 +292,33 @@ $ENDCMP
 $CMP SW_Push
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TEZ10.0-D-2
+D TEZ10.0/D/x-x, 10VA, Dual Secondary, Cast Resin Transformer, PCB
+K 10VA PCB Transformer Dual Secondary
+F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+$ENDCMP
+#
+$CMP TL431
+D Zener Diode, alternativ symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP Transformer_1P_1S_SO8
+D Transformer, single primary, single secondary, SO-8 package
+K transformer coil magnet
+$ENDCMP
+#
+$CMP UC3845
+D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
+K SMPS PWM Controller
+$ENDCMP
+#
+$CMP UC3846X-D08-T
+D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
+K SMPS PWM Controller
 $ENDCMP
 #
 #End Doc Library

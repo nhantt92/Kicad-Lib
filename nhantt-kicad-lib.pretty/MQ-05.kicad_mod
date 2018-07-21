@@ -12,7 +12,7 @@
   (pad 4 thru_hole circle (at 3.4 3.4) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 4.8 0) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 3.4 -3.4) (size 2.5 2.5) (drill 1.2) (layers *.Cu *.Mask))
-  (model E:/Project/2017/hw/kicad/nhantt-kicad-lib/packages3d/MQ135.wrl
+  (model ./packages3d/MQ135.wrl
     (at (xyz 0 0 0))
     (scale (xyz 400 400 400))
     (rotate (xyz 0 0 90))

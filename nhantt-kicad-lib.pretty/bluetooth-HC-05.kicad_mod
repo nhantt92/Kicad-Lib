@@ -84,7 +84,7 @@
   (pad 32 smd rect (at 6.35 -6) (size 2 0.76) (layers F.Cu F.Paste F.Mask))
   (pad 33 smd rect (at 6.35 -7.5) (size 2 0.76) (layers F.Cu F.Paste F.Mask))
   (pad 34 smd rect (at 6.35 -9) (size 2 0.76) (layers F.Cu F.Paste F.Mask))
-  (model D:/Projects/2016/nhantt/st-kicad-lib/3d-package/bluetooth-hc-05.wrl
+  (model E:/Project/Kicad-Lib/3d-package/bluetooth-hc-05.wrl
     (at (xyz -0.28 0.355 0))
     (scale (xyz 400 400 400))
     (rotate (xyz 0 0 0))
