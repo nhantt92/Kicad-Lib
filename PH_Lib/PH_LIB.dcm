@@ -1,0 +1,688 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12C
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12L
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12LF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12P
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +15V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V8
+K POWER, PWR
+$ENDCMP
+#
+$CMP +24V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V5
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3.3VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VD
+K POWER, PWR
+$ENDCMP
+#
+$CMP +9V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +9VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP -5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP 1A3C
+D Laser Diode in a 2-pin package
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP 1N400x
+D Rectifier Diodes
+$ENDCMP
+#
+$CMP 24LC00
+D I2C Serial EEPROM, 128 bits
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21178G.pdf
+$ENDCMP
+#
+$CMP 24LC01
+D I2C Serial EEPROM, 1kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf
+$ENDCMP
+#
+$CMP 24LC02
+D I2C Serial EEPROM, 2kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21709c.pdf
+$ENDCMP
+#
+$CMP 24LC04
+D I2C Serial EEPROM, 4kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21708K.pdf
+$ENDCMP
+#
+$CMP 24LC08
+D I2C Serial EEPROM, 8kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf
+$ENDCMP
+#
+$CMP 24LC1025
+D I2C Serial EEPROM, 1024kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+$ENDCMP
+#
+$CMP 24LC128
+D I2C Serial EEPROM, 128kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21191s.pdf
+$ENDCMP
+#
+$CMP 24LC16
+D I2C Serial EEPROM, 16kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf
+$ENDCMP
+#
+$CMP 24LC256
+D I2C Serial EEPROM, 256kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf
+$ENDCMP
+#
+$CMP 24LC32
+D I2C Serial EEPROM, 32kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf
+$ENDCMP
+#
+$CMP 24LC512
+D I2C Serial EEPROM, 512kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21754M.pdf
+$ENDCMP
+#
+$CMP 24LC64
+D I2C Serial EEPROM, 64kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
+$ENDCMP
+#
+$CMP 2SA1015_SMD
+D SOT23, -50V Vce, -0.15A Ic, PNP Transistor
+K Low Noise Audio PNP Transistor
+$ENDCMP
+#
+$CMP 2SC1815-SMD
+D SOT23, 50V Vce, 0.15A Ic, NPN Transistor
+K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP AMD3260
+D ISO with Integraed DC to DC Converter
+$ENDCMP
+#
+$CMP Antenna
+D Antenna symbol
+K antenna
+$ENDCMP
+#
+$CMP Antenna_Shield
+D Antenna 
+K antenna
+$ENDCMP
+#
+$CMP BAT54S
+D schottky barrier diode BAT
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP Battery_Cell
+D Battery cell
+K Battery cell
+$ENDCMP
+#
+$CMP Buzzer
+D Buzzer
+K Quartz Resonator Ceramic 
+$ENDCMP
+#
+$CMP C2383
+D SOT23, 50V Vce, 0.15A Ic, NPN Transistor
+K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector, single row, 01x02, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x03, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X05
+D Connector, single row, 01x05, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X06
+D Connector, single row, 01x06, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X07
+D Connector, single row, 01x07, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector, single row, 01x08, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X09
+D Connector, single row, 01x09, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X10
+D Connector, single row, 01x10, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X11
+D Connector, single row, 01x11, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X12
+D Connector, single row, 01x12, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X16
+D Connector
+K connector
+$ENDCMP
+#
+$CMP CONN_01X40
+D Connector 01x40, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_02X04
+K connector
+$ENDCMP
+#
+$CMP CONN_02X07
+D Connector
+K connector
+$ENDCMP
+#
+$CMP CONN_02X10
+D Connector, double row, 02x10
+K connector
+$ENDCMP
+#
+$CMP CONN_02X20
+D Connector 2x20
+K connector
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+K Cap capacitor
+$ENDCMP
+#
+$CMP CP2102
+D UART->USB
+$ENDCMP
+#
+$CMP CS5529
+D SSOP 20.
+$ENDCMP
+#
+$CMP CY8CMBR3110
+D CapSense Controller, 10 Sensors, SOIC-16.
+K Touch Sensor 10ch
+F http://www.cypress.com/?docID=49119
+$ENDCMP
+#
+$CMP CY8CMBR3116
+D CapSense Controller, 16 Sensors, QFN-24
+K Touch Sensor 16ch
+F http://www.cypress.com/?docID=49119
+$ENDCMP
+#
+$CMP C_Feedthrough
+D feedthrough  capacitor
+K EMI filter feedthrough capacitor
+$ENDCMP
+#
+$CMP Conn_01x18
+D 01x18
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x08
+D 02x08
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x22_Top_Bottom
+D 02x22, top/bottom 
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x25_Odd_Even
+D  02x25, odd/even 
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x25_Top_Bottom
+D  02x25, top/bottom 
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Schottky diode
+K diode schottky
+$ENDCMP
+#
+$CMP D_TVS
+D TVS diode
+K diode TVS thyrector
+$ENDCMP
+#
+$CMP EMI_Filter_C
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Earth
+D Ground
+K POWER, PWR, GND, GROUND
+$ENDCMP
+#
+$CMP Fuse
+D Fuse
+K Fuse
+$ENDCMP
+#
+$CMP G5Q-1
+D OMRON G5G SPDT, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP G5Q_5V
+D G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND24
+D GND24
+$ENDCMP
+#
+$CMP GNDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDD
+K POWER, PWR
+$ENDCMP
+#
+$CMP HT1621
+D 32x4 LCD Controller for I/O MCU
+$ENDCMP
+#
+$CMP IS42S16400J
+D ram
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper, normally closed
+K jumper link bridge
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper, normally open
+K jumper link bridge
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP LED_Small
+D LED
+$ENDCMP
+#
+$CMP LF444
+D SOIC-14
+$ENDCMP
+#
+$CMP LM1117-2.5
+D PH
+$ENDCMP
+#
+$CMP LM1117-3.3
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-5.0
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-ADJ
+D 800mA Low-Dropout Linear Regulator, adjustable output
+K linear regulator ldo adjustable positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM2596
+D Power Switching
+$ENDCMP
+#
+$CMP LM2672ADJ
+D Switch Power
+$ENDCMP
+#
+$CMP LM2902N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LMC6484
+D Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
+$ENDCMP
+#
+$CMP LMV324
+D Quad Low-Voltage Rail-to-Rail Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP Laserdiode_1A3C
+D Laser Diode in a 2-pin package
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP MCP1525
+D 250mA Low Quiscent Current LDO, 3.0V output, SOT-23-3 package
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+$ENDCMP
+#
+$CMP MCP155
+D 250mA Low Quiscent Current LDO, 3.0V output, SOT-23-3 package
+K regulator linear ldo
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP604
+D Quad 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MS_B_XT_1WR2
+D B_XT_1WR2_SERIES (POWER DC/DC) 
+$ENDCMP
+#
+$CMP MS_FC-LX1D2
+D EMC Filter
+$ENDCMP
+#
+$CMP MS_LD03_10BxxR2
+D MS_LD03_10BxxR2_Series (Power AC/DC)
+$ENDCMP
+#
+$CMP MS_LH10Dxx
+D 10W, AC/DC Converter
+$ENDCMP
+#
+$CMP Micro_SD_Card
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP OPA177
+D Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
+$ENDCMP
+#
+$CMP PC817
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP RJ45-TRANSFO
+D RJ45 with transformer 
+K RJ45
+$ENDCMP
+#
+$CMP R_Network08
+D 8 Resistor network
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Variable
+D Rheostat
+$ENDCMP
+#
+$CMP S78S
+D LORA
+$ENDCMP
+#
+$CMP SIM_Card
+D SIM Card
+$ENDCMP
+#
+$CMP STM32F103RCTx1
+D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 48KB Frequency: 72MHz Voltage: 2..3.6V IO-pins: 51
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RETx
+D LQFP64, 256KB Ram: 48KB Frequency: 72MHz Voltage: 2..3.6V IO-pins: 51
+K STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP SW_DIP_x03
+D 3x DIP Switch
+K dip switch
+$ENDCMP
+#
+$CMP SW_Push
+D BUTTON
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch 
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP TE1S60N
+D ISO Transmltter 
+$ENDCMP
+#
+$CMP TEST
+D Testpoint
+$ENDCMP
+#
+$CMP TFS160N-3.3V
+D Signal condltloning modules
+$ENDCMP
+#
+$CMP TL064
+D Quad Low-Power JFET-Input Operational Amplifiers, Very Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl064.pdf
+$ENDCMP
+#
+$CMP TL074
+D Quad Low-Noise JFET-Input Operational Amplifiers, Low Power
+K AmpliOp Mos
+F http://www.ti.com/lit/ds/symlink/tlc074.pdf
+$ENDCMP
+#
+$CMP TL084
+D JFET-Input Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TLC274
+D Precision Quad Op amp. Mos
+K AmpliOp Mos
+F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
+$ENDCMP
+#
+$CMP TLP521-4
+D TLP521-4 Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16
+K NPN DC Quad Optocoupler
+$ENDCMP
+#
+$CMP TLV2252
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP TLV2254
+D TLV2254
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A 
+K connector USB
+$ENDCMP
+#
+#End Doc Library

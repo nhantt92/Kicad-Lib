@@ -1,0 +1,10 @@
+(module PH_SW_Cap (layer F.Cu) (tedit 5A7A8280)
+  (fp_text reference U7 (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.12)))
+  )
+  (fp_text value SW_Cap (at 0 -6.4) (layer F.Fab) hide
+    (effects (font (size 0.7 0.7) (thickness 0.12)))
+  )
+  (pad 1 smd circle (at 0 0) (size 2 2) (layers F.Cu)
+    (clearance 0.508))
+)

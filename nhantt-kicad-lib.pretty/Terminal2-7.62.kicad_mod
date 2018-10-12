@@ -11,4 +11,9 @@
   (fp_line (start -8.5 -2) (end 8.5 -2) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at -3.81 0.037751) (size 2.524 2.524) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 3.81 0) (size 2.524 2.524) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (model E:/Project/Kicad-Lib/packages3d/kf7_62-2p.wrl
+    (at (xyz 0 -0.175 0))
+    (scale (xyz 400 400 400))
+    (rotate (xyz 270 0 180))
+  )
 )
