@@ -28,6 +28,12 @@ D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
+$CMP AG12864E
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K LCD STN Graphics 128x64
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
 $CMP ASM1117
 D 1.5A 35V Adjustable Linear Regulator, TO-3
 K Adjustable Voltage Regulator 1.5A Positive
@@ -174,6 +180,18 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
 $ENDCMP
 #
+$CMP IR2110
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
 $CMP LCD-016N002L
 D LCD 12x2, 8 bit parallel bus, 3V or 5V VDD
 K LCD 12x2
@@ -220,7 +238,7 @@ F http://www.ti.com/lit/gpn/lm7332
 $ENDCMP
 #
 $CMP LP2985LV
-D MICROPOWER 150mA Regulator 
+D MICROPOWER 150mA Regulator
 K REGUL POWER  SOT-23-5
 F regulator/LP2985.pdf
 $ENDCMP
@@ -232,7 +250,7 @@ $ENDCMP
 #
 $CMP MCP6002
 D Dual general purpose rail-to-rail op amp
-K dual op amp rail 
+K dual op amp rail
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
@@ -281,6 +299,12 @@ $CMP RSM822
 D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
 K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
+$ENDCMP
+#
+$CMP ST7920
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K LCD STN Graphics 128x64
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
 $CMP STM32F103C8

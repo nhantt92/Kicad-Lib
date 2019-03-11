@@ -28,6 +28,12 @@ D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
+$CMP AG12864E
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K LCD STN Graphics 128x64
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
 $CMP ASM1117
 D 1.5A 35V Adjustable Linear Regulator, TO-3
 K Adjustable Voltage Regulator 1.5A Positive
@@ -42,6 +48,26 @@ $ENDCMP
 $CMP C1815
 D 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92
 K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP CNT-RJ45-8P8C-LED
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-HR911102A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-HR911105A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-KRJ-14002-88XX-GY-A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
 $ENDCMP
 #
 $CMP D_Zener_ALT
@@ -174,6 +200,18 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
 $ENDCMP
 #
+$CMP IR2110
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
 $CMP LCD-016N002L
 D LCD 12x2, 8 bit parallel bus, 3V or 5V VDD
 K LCD 12x2
@@ -220,7 +258,7 @@ F http://www.ti.com/lit/gpn/lm7332
 $ENDCMP
 #
 $CMP LP2985LV
-D MICROPOWER 150mA Regulator 
+D MICROPOWER 150mA Regulator
 K REGUL POWER  SOT-23-5
 F regulator/LP2985.pdf
 $ENDCMP
@@ -232,7 +270,7 @@ $ENDCMP
 #
 $CMP MCP6002
 D Dual general purpose rail-to-rail op amp
-K dual op amp rail 
+K dual op amp rail
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
@@ -246,6 +284,10 @@ $CMP OP275
 D Dual Op amp (low power)
 K ampliop
 F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP PL2303HX_RevD
+D USB to Serial Bridge Controller
 $ENDCMP
 #
 $CMP Q_PMOS_GDS
@@ -283,6 +325,18 @@ K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
 $ENDCMP
 #
+$CMP SD_Card
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
+$ENDCMP
+#
+$CMP ST7920
+D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K LCD STN Graphics 128x64
+F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
 $CMP STM32F103C8
 D 32-bit ARM Cortex-M3 Microcontroller, 72MHz, 64KB Flash, 20KB RAM, USB, CAN, LQFP48
 K STM32 ARM Cortex-M3 MCU
@@ -313,6 +367,11 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
 $CMP SW_Push
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
@@ -324,10 +383,21 @@ K 10VA PCB Transformer Dual Secondary
 F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
 $ENDCMP
 #
+$CMP TF-Micro-SDCard
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
+$ENDCMP
+#
 $CMP TL431
 D Zener Diode, alternativ symbol
 K diode
 F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP TVS
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
 $ENDCMP
 #
 $CMP Transformer_1P_1S_SO8
@@ -343,6 +413,16 @@ $ENDCMP
 $CMP UC3846X-D08-T
 D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
 K SMPS PWM Controller
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB USB_A
+$ENDCMP
+#
+$CMP USB_OTG
+D USB micro/mini connector
+K connector USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 #End Doc Library
