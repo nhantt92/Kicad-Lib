@@ -23,6 +23,22 @@ K Low Noise Audio PNP Transistor
 F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
 $ENDCMP
 #
+$CMP AD8208
+D 45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+$ENDCMP
+#
+$CMP AD8601
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf
+$ENDCMP
+#
+$CMP AD8604
+D Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
+K 4 opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf
+$ENDCMP
+#
 $CMP ADA4075
 D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
@@ -48,6 +64,26 @@ $ENDCMP
 $CMP C1815
 D 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92
 K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP CNT-RJ45-8P8C-LED
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-HR911102A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-HR911105A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
+$ENDCMP
+#
+$CMP CNT-RJ45-KRJ-14002-88XX-GY-A
+D  RJ-45 with LEDs and shield
+K Connector rj45 ethernet network
 $ENDCMP
 #
 $CMP D_Zener_ALT
@@ -266,6 +302,10 @@ K ampliop
 F analog-dev/op275.pdf
 $ENDCMP
 #
+$CMP PL2303HX_RevD
+D USB to Serial Bridge Controller
+$ENDCMP
+#
 $CMP Q_PMOS_GDS
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
@@ -299,6 +339,12 @@ $CMP RSM822
 D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
 K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
+$ENDCMP
+#
+$CMP SD_Card
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
 $ENDCMP
 #
 $CMP ST7920
@@ -337,6 +383,11 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
 $CMP SW_Push
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button
@@ -348,10 +399,21 @@ K 10VA PCB Transformer Dual Secondary
 F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
 $ENDCMP
 #
+$CMP TF-Micro-SDCard
+D SD Card Reader
+K connector SD
+F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
+$ENDCMP
+#
 $CMP TL431
 D Zener Diode, alternativ symbol
 K diode
 F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP TVS
+D Transient voltage suppressor diode (bi-directional)
+K DEV TVS TRANSIENT SUPPROESSOR ESD
 $ENDCMP
 #
 $CMP Transformer_1P_1S_SO8
@@ -367,6 +429,16 @@ $ENDCMP
 $CMP UC3846X-D08-T
 D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
 K SMPS PWM Controller
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB USB_A
+$ENDCMP
+#
+$CMP USB_OTG
+D USB micro/mini connector
+K connector USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 #End Doc Library

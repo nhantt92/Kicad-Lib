@@ -23,6 +23,22 @@ K Low Noise Audio PNP Transistor
 F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
 $ENDCMP
 #
+$CMP AD8208
+D 45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+$ENDCMP
+#
+$CMP AD8601
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf
+$ENDCMP
+#
+$CMP AD8604
+D Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
+K 4 opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8601_8602_8604.pdf
+$ENDCMP
+#
 $CMP ADA4075
 D Very low noise audio op amp
 F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
